@@ -7,5 +7,11 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 $app['twig'] = $app->extend('twig', function ($twig, $app) {
     // add custom globals, filters, tags, ...
 
+    $function = new Twig_SimpleFunction('testFunction', function () {
+        return 'test2';
+    });
+
+    $twig->addFunction($function);
+
     return $twig;
 });
