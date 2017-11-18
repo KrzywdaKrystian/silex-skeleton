@@ -2,7 +2,7 @@
 
 namespace App;
 
-use App\Controllers\IndexController;
+use Src\App\Controllers\IndexController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\JsonResponse;
