@@ -12,6 +12,4 @@ $app->register(new AssetServiceProvider());
 $app->register(new TwigServiceProvider());
 $app->register(new HttpFragmentServiceProvider());
 
-
-
 return $app;

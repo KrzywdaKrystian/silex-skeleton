@@ -6,6 +6,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class IndexController extends BaseController {
 
+
     public function indexAction() {
 
 
